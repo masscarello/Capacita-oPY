@@ -15,6 +15,6 @@ nota3 = float(input("Digite a terceira nota do aluno:"))
 media = (nota1 + nota2 + nota3) / 3 
 
 if media >= 6.0:
- print("Aprovado")
+ print(f"{media:.2f}" , "Aprovado")
 else:
    print("Reprovado")
